@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Achraf Dhouib Portfolio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class='bx bx-menu' id='menu-icon'></i>
+      <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="../pages/about.html">About</a>
+        <a href="../pages/skills.html">Skills</a>
+        <a href="../pages/internships.html">internships</a>
+        <a href="../pages/projects.html">Projects</a>
+        <a href="../pages/interest.html">Interest</a>
+        <a href="#" class="active">quiz</a>
+        <a href="../index.html#contact">Contact</a>
+
+      </nav>
+    </header>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="../images/skills.png" alt="">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">Let's <span>Play</span></h2>
+        <p>Are you ready to play with a quiz? just choose the right answers and click button of resselut.
+        </p>
+      </div>
+    </section>
+
+    <section class="quiz" id="quiz">
+      <h2 class="heading">Let's <span>Start</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <p>question 1 : What does HTML stand for?</p>
+          <input type="radio" name="question1" id="question1" value="1"> Hyper Text Markup Language <br>
+          <input type="radio" name="question1" id="question1" value="2"> High Tech Modern Language <br>
+          <input type="radio" name="question1" id="question1" value="3"> Hyper Transfer Markup Language <br>
+          <input type="radio" name="question1" id="question1" value="4"> Home Tool Markup Language <br>
+        </div>
+        <div class="input-box">
+          <p>question 2 : Which HTML tag is used for creating an unordered list?</p>
+          <input type="radio" name="question2" id="question2" value="1"> ol <br>
+          <input type="radio" name="question2" id="question2" value="2"> ul <br>
+          <input type="radio" name="question2" id="question2" value="3"> li <br>
+          <input type="radio" name="question2" id="question2" value="4"> list <br>
+        </div>
+        <div class="input-box">
+          <p>question 3 : What does CSS stand for?</p>
+          <input type="radio" name="question3" id="question3" value="1"> Computer Style Sheets <br>
+          <input type="radio" name="question3" id="question3" value="2"> Cascading Style Sheets <br>
+          <input type="radio" name="question3" id="question3" value="3"> Creative Style Sheets <br>
+          <input type="radio" name="question3" id="question3" value="4"> Colorful Style Sheets <br>
+        </div>
+        <div class="input-box">
+          <p>question 4 : How do you apply an inline style in CSS?</p>
+          <input type="radio" name="question4" id="question4" value="1"> Using the 'style' tag <br>
+          <input type="radio" name="question4" id="question4" value="2"> Using the style attribute in an HTML tag <br>
+          <input type="radio" name="question4" id="question4" value="3"> Using the link tag <br>
+          <input type="radio" name="question4" id="question4" value="4"> Using the 'css' tag <br>
+        </div>
+        <div class="input-box">
+          <p>question 5 : How do you select an element with the ID "myElement" in CSS?</p>
+          <input type="radio" name="question5" id="question5" value="1"> #myElement <br>
+          <input type="radio" name="question5" id="question5" value="2"> .myElement <br>
+          <input type="radio" name="question5" id="question5" value="3"> @myElement <br>
+          <input type="radio" name="question5" id="question5" value="4"> element=myElement <br>
+        </div>
+        <input type="button" value="Result" class="btn" onclick="result()">
+      </form>
+    </section>
+
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by AchrafDh | All Right Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
